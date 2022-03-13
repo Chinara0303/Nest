@@ -1,0 +1,17 @@
+.breadcrumb li {
+  font-size: 13px;
+}
+
+.breadcrumb li i {
+  font-size: 10px;
+  margin: 0 10px;
+}
+
+.breadcrumb li .home {
+  color: #3bb77e;
+}
+
+.breadcrumb li .home:hover {
+  color: #fdc040;
+}
+/*# sourceMappingURL=product.css.map */

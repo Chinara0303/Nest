@@ -1,0 +1,136 @@
+
+.tbody{
+    h2{
+        color: rgb(3, 3, 3);
+    }
+}
+
+#main-section{
+    .breadcrumb{
+        border-bottom: 1px solid #ececee;
+        padding: 20px 0;
+        li{
+            font-size: 13px;
+            i{
+                font-size: 10px;
+                margin: 0 10px;
+            }
+            .home{
+                color: #3bb77e;
+                &:hover{
+                color: #fdc040;
+                }
+    
+            }
+        }
+    }
+    .heading{
+        font-size: 40px;
+        color: #253d4e;
+        margin: 30px 0 10px !important;
+        text-align: left;
+    }
+    .texts{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h6 {
+            span{
+                color: #3bb77e;
+            }
+            a,i{
+                color: #7e7e7e;
+            }
+        }
+    }
+
+    // shopping
+    .shopping{
+        .table{
+            margin: 20px 0;
+            .main-heading{
+                border-radius: 10px;
+                background-color: #e9ecef;
+                th{
+                    background-color: #ececec;
+                    padding: 15px 0;
+                    font-family: "Quicksand", sans-serif;
+                    font-size: 15px;
+                    font-weight: 700;
+                    color: #253D4E;
+                }
+            }
+            tr{
+                padding: 30px 0;
+            }
+            td{
+                border:  1px solid #ececec;
+                border-radius: 10px;
+                img{
+                   width: 80px;
+                }   
+            }
+        }
+    }
+    .cart-action{
+        margin: 20px 0;
+        .btn-basket{
+            border: 1px solid #ececec;
+            background: #3bb77e;
+            padding: 10px 20px;
+            border-radius: 10px;
+            color: #fff;
+            font-size: 15px;
+            i{
+                margin-right: 10px;
+            }
+
+        }
+        
+    }
+    .calculate-shiping{
+        padding: 40px;
+        border: 1px solid #ececec;
+        border-radius: 20px;
+        h4{
+            margin-bottom: 10px;
+        }
+        strong{
+            color: #3bb77e;
+            margin-left: 5px;
+        }
+        .select-active{
+            padding: 20px;
+            border-radius: 10px;
+            margin: 0 5px 0;
+        }
+        .form-row{
+            .form-group1{
+                padding: 15px;
+                border: 1px solid #ececec;
+                border-radius: 10px;
+                .select-2-selection{
+                    display: none;
+                }
+            }
+        }
+       
+    }
+    .rigth-basket{
+          padding: 45px;
+        h4{
+            font-size: 18px;
+            color: #253d4e;
+        }
+        .coupon{
+            border: 1px solid #ececec;
+            border-radius: 10px;
+            font-size: 16px;
+        }
+        button{
+            background-color: #3bb77e;
+            padding: 10px 30px;
+
+        }
+    }
+}
